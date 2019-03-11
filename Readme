@@ -1,0 +1,17 @@
+This program converts texts into Xiaofei Lu's LCA (Lu 2012) compliant data format. 
+POS tagging is conducted with TReeTagger (Schmid 1994)
+
+PREREQUISITE
+Install TreeTagger
+
+USAGE: Place all txt files in "corpus" directory and run. 
+Command line in linux: perl runner.pl corpus
+
+Run runner.pl. It encapsulates all other programs necessary for the preparation of txt files to be used in LCA. 
+
+Text formatting path
+txt 2 txtn 2 tokens 2 tt 2 seq4lca 2 seq4lca.
+
+
+Creative Commons Licence: Attribution-NonCommercial-ShareAlike 4.0 International
+Author: Thomas Gaillat
